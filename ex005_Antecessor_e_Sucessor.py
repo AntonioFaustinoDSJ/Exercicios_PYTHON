@@ -1,0 +1,8 @@
+print()
+print('*'*25)
+print('  ANTECESSOR E SUCESSOR ')
+print('*'*25)
+val = int(input('  DIGITE O VALOR: '))
+print('*'*25)
+print('O antecessor de {} é {} e o seu sucessor é {}.'.format(val, val-1, val+1))
+print('*'*25)
